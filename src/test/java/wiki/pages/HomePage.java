@@ -50,11 +50,9 @@ public class HomePage extends BasePage {
 
     public void storeFirstFewLanguage() {
         int counter = 0;
-        String tmpArray []=new String[allLanguage.size()];
-        for(int index = 0; index< tmpArray.length; index++){
+        for(int index = 0; index< allLanguage.size(); index++){
             WebElement language = allLanguage.get(index);
-            if(counter == 10)
-                break;
+            if(counter == 10) break;
             scrollDownAndFindLanguage();
             log.info(language.getText());
             language.findElement(By.xpath("//*[@id=\'p-lang\']/div/ul/li["+ ++counter+"]/a/span")).click();

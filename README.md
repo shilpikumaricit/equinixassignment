@@ -1,8 +1,8 @@
-# DT Testing Chapter Automation Coding Test #
+# WIKIPEDIA  Change Language and search celebrity
 
-This project is used to automate functional test for TODO MVC using Selenium and Cucumber.
+This project is used to automate functional test for wiki MVC using Selenium and Cucumber.
 
-Test scenarios are described in the feature files located here .src/test/resources/features/manageTodo.feature.
+Test scenarios are described in the feature files located here .src/test/resources/features/wiki.feature.
 
 
 BDD framework for automation using Selenium Cucumber and TestNg
